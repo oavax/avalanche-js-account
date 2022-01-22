@@ -1,15 +1,15 @@
 {
-  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "rootDir": "src",
-    "outDir": "dist"
+    "outDir": "dist",
+    "allowSyntheticDefaultImports": true
   },
   "include": ["src", "../../typings/**/*.d.ts", "aaa.ts"],
   "references": [
-    { "path": "../avalanche-crypto" },
-    { "path": "../avalanche-utils" },
-    { "path": "../avalanche-transaction" },
-    { "path": "../avalanche-staking" },
-    { "path": "../avalanche-network" }
+    { "path": "../avalanche-js-crypto" },
+    { "path": "../avalanche-js-utils" },
+    { "path": "../avalanche-js-transaction" },
+    { "path": "../avalanche-js-staking" },
+    { "path": "../avalanche-js-network" }
   ]
 }

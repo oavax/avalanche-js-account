@@ -18,7 +18,6 @@
   "author": "neeboo@firestack.one",
   "license": "MIT",
   "dependencies": {
-    "avalanche-js-core": "git://github.com/oavax/avalanche-js-core.git",
     "avalanche-js-crypto": "git://github.com/oavax/avalanche-js-crypto.git",
     "avalanche-js-network": "git://github.com/oavax/avalanche-js-network.git",
     "avalanche-js-staking": "git://github.com/oavax/avalanche-js-staking.git",
